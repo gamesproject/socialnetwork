@@ -1,0 +1,66 @@
+/* custom fonts*/
+@font-face {
+    font-family:navbarfont;
+    src: url('fonts/navbrand.ttf');
+}
+
+@font-face {
+    font-family:theboldfont;
+    src: url('fonts/theboldfont.ttf');
+}
+
+
+/* navbar */
+
+.navbar-custom {
+    background-color:#0099ff;
+    color:red;
+    border-radius:0;
+}
+
+.navbar-font{
+  color:white;
+  font-size: 50px;
+  font-family: navbarfont;
+}
+
+
+/* others */
+body{
+ background-color: #e6e6e6;
+}
+
+.center-text{
+  text-align: center;
+}
+
+.bold-font{
+  font-family: theboldfont;
+}
+
+.profilename{
+  border-radius: 25px;
+  background: #0099ff;
+  padding: 10px;
+  padding-top: 30px;
+  width: 350px;
+  height: 100px;
+
+}
+
+.postclass{
+  border-radius: 25px;
+  background: #0099ff;
+  padding: 10px;
+  padding-top: 30px;
+  width: 350px;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+ font-family: theboldfont;
+}
+
+.navbar-text{
+  font-family: theboldfont;
+  font-size:20px;
+}
